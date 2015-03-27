@@ -17,5 +17,9 @@ public class PrimeFactorizationTests {
 	public void test_that_the_generated_list_for_1_returns_empty() {
 		assertEquals(list(), PrimeFactorization.generate(1));
 	}
-
+	
+	@Test
+	public void test_that_the_generated_list_for_2_returns_with_2() {
+		assertEquals(list(2), PrimeFactorization.generate(2));
+	}
 }
