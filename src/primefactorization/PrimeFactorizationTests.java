@@ -31,6 +31,6 @@ public class PrimeFactorizationTests {
 	
 	@Test
 	public void test_that_the_generated_list_for_4_returns_with_2_2() {
-		assertEquals(list(2,2), generate(3));
+		assertEquals(list(2,2), generate(4));
 	}
 }
