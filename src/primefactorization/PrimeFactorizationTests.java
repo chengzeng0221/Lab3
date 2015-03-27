@@ -33,4 +33,9 @@ public class PrimeFactorizationTests {
 	public void test_that_the_generated_list_for_4_returns_with_2_2() {
 		assertEquals(list(2,2), generate(4));
 	}
+	
+	@Test
+	public void test_that_the_generated_list_for_6_returns_with_2_3() {
+		assertEquals(list(2,3), generate(6));
+	}
 }
